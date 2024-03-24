@@ -58,6 +58,7 @@ nav {
   position: relative;
   right: 0;
   bottom: 0;
+  top: -800px;
   width: fit-content;
   height: 100%;
 }
