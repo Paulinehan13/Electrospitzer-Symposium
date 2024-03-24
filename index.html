@@ -6,6 +6,8 @@
           <meta name="viewport" content="width-device-width, initial-scale=1.0">
           <title>ELECTROSPITZER</title>
           <link rel="stylesheet" href="index.css">
+
+
           <link rel="preconnect" href="https://fonts.googleapis.com">
 
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +38,7 @@
               <video autoplay muted loop id="myVideo">
                 <source src="video.mp4" type="video/mp4">
               </video>
-              <div id="arrowAnim">
+              <div onclick="scrollhome()" id="arrowAnim">
                 <div class="arrowSliding">
                   <div class="arrow"></div>
                 </div>
@@ -44,11 +46,11 @@
                   <div class="arrow"></div>
                 </div>
               </div>
-              <div class="home">
+              <div class="home" id="home">
                 <div class="type">
                   <span>Anna University Regional Campus Tirunelveli <br>Department of ECE</span>
                   <span>presents</span>
-                  <span>A regional level symposium</span>
+                  <span>A Regional Level Symposium</span>
                   <span>Electospitzer 2k24</span>
                   <div class="button">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScE4b6Srk1lgk2WEZMBneikJcNsLDFA-Ae9U-b-F8FbCujs6Q/viewform">Register Now</a>
@@ -60,7 +62,7 @@
                         <div class="content" style="font-size: 1rem;">
                             <div class="abt">About Us</div>
                             <p  style="font-size:1rem;">ELECTROSPITZER 2k24 is one of the most awaited and prestigious event of the Department Of Electronics And Communication Engineering In Anna University Regional Campus, Tirunelveli.</p>
-                          <p  style="font-size:1rem;"> ALL of us do not have equal talent. But ,all of us have an equal opportunity to develop our talents- Dr.A.P.J Abdul kalam<span id="dots" style="color: white; ">...</span><span  style="font-size:1rem;" id="more"> inspired by the above beautiful quote, ELECTROSPITZER provides you the golden opportunity to showcase your talents in various technical and non-technical events. It will be an all inclusive package for learning, fun and much more awaits ! we look forward to see you!</span></p>
+                          <p  style="font-size:1rem;"> ALL of us do not have equal talent. But ,all of us have an equal opportunity to develop our talents- Dr.A.P.J Abdul kalam<span id="dots" style="color: white; ">...</span><span  style="font-size:1rem;" id="more"> inspired by the above beautiful quote, ELECTROSPITZER 2k24 provides you the golden opportunity to showcase your talents in various technical and non-technical events. It will be an all inclusive package for learning, fun and much more awaits ! we look forward to see you!</span></p>
 
                           <button class="btnmore" onclick="myFunction()" id="myBtn">Read more</button>
                           <script>
@@ -88,26 +90,159 @@
                     </div>
                 </div>
             </div>
-            
+            </div>
+          </div>
+          <div class="events" id="events">
+              <div class="container">
+                  <h1 class="sub-title">Technical Events</h1>
+                  <div style="margin-bottom:20%" class="Technicalevent">
+                    <div class="card">
+                            <div class="card1">
+                                <button id="edu">PAPYRUS</button> 
+                                <div class="card__front">
+                                  <!-- <image src="aurct-logo.png" style="width: 100%; height: 100%;"></image> -->
+                                </div> 
 
+                                <div class="card__back">
+                                <p class="card__body"> Paper Presentation event. <br><b>Rules</b><br>
+                                  1. A team can comprise 2 to 3 members.<br>
+                                  2. The topics should be selected given below.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="card">
+                            <div class="card1">
+                                <button id="edu">BRAIN ‘O’ MAX</button> 
+                                <div class="card__front">
+                                  <!-- <image src="aurct-logo.png" style="width: 100%; height: 100%;"></image> -->
+                                </div> 
 
+                                <div class="card__back">
+                                <p class="card__body"> Paper Presentation event. <br><b>Rules</b><br>
+                                  1. A team can comprise 2 to 3 members.<br>
+                                  2. The topics should be selected given below.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="card">
+                            <div class="card1">
+                                <button id="edu">DEBUGGING</button> 
+                                <div class="card__front">
+                                  <!-- <image src="aurct-logo.png" style="width: 100%; height: 100%;"></image> -->
+                                </div> 
 
-
-
-
-
-
-
-
-
-
-
-
-
+                                <div class="card__back">
+                                <p class="card__body"> Paper Presentation event. <br><b>Rules</b><br>
+                                  1. A team can comprise 2 to 3 members.<br>
+                                  2. The topics should be selected given below.</p>
+                            </div>
+                        </div>
+                    </div>
               
-          
+                  </div>
+              </div>
+              <h1 class="sub-title">Non-Technical Events</h1>
+                <div class="Technicalevent">
+                  <div class="card">
+                          <div class="card1">
+                              <button id="edu">MIND MATTERS</button> 
+                              <div class="card__front" style="box-shadow: 2px 3px 20px #D70040, 0 0 125px #000000 inset;">
+                                <!-- <image src="aurct-logo.png" style="width: 100%; height: 100%;"></image> -->
+                              </div> 
+
+                              <div class="card__back">
+                              <p class="card__body"> Paper Presentation event. <br><b>Rules</b><br>
+                                1. A team can comprise 2 to 3 members.<br>
+                                2. The topics should be selected given below.</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card">
+                          <div class="card1">
+                              <button id="edu">BRAIN GYM</button> 
+                              <div class="card__front" style="box-shadow: 2px 3px 20px #D70040, 0 0 125px #000000 inset;">
+                                <!-- <image src="aurct-logo.png" style="width: 100%; height: 100%;"></image> -->
+                              </div> 
+
+                              <div class="card__back">
+                              <p class="card__body"> Paper Presentation event. <br><b>Rules</b><br>
+                                1. A team can comprise 2 to 3 members.<br>
+                                2. The topics should be selected given below.</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card">
+                          <div class="card1">
+                              <button id="edu">MEET UP</button> 
+                              <div class="card__front" style="box-shadow: 2px 3px 20px #D70040, 0 0 125px #000000 inset;">
+                                <!-- <image src="aurct-logo.png" style="width: 100%; height: 100%;"></image> -->
+                              </div> 
+
+                              <div class="card__back">
+                              <p class="card__body"> Paper Presentation event. <br><b>Rules</b><br>
+                                1. A team can comprise 2 to 3 members.<br>
+                                2. The topics should be selected given below.</p>
+                          </div>
+                      </div>
+                  </div>
+
+                </div>
+            <h1 class="sub-title">Workshop</h1>
+            <div id="Workshop">  
+              <div class="cont">
+                  <section class="work">
+                      <div class="work-content">
+                          <h1>INDIGENOUS 5G & 6G - A MILESTONE IN 
+                          INDIAN TELECOM</h1>
+                          <p>The senior solutions Architect from Inspection Depot Inc -Florida is going to take a lecture on "Cloud computing and Mobile technology. "
+                          </p>
+                          <p>In the workshop ,you will learn about the cloud computing and its services which includes databases, software and networking. </p>
+                          <p>And about Mobile Technology and its types which are  Cloud-based services that are cheaper than using any of the systems Technology.</p>
+                      </div><i class="ga fa-regular fa-wand-sparkles"></i> 
+              </div>
+            </div>
+            <div class="container" id="paper">
+                    <h1 class="sub-title"> Paper Presentation topics</h1>
+
+                    <p class="mus">Papers are invited for the following topics but are not limited to the below topics</p>
+
+                <div class="work-list">
+                    <div class="work">
+
+                        <div class="layer">
+                        <ul>
+                            <li>INTERNET OF THINGS AND SECURITY</li>
+                            <li>EMBEDDED WIRELESS SYSTEM</li>
+                            <li>BIOMEDICAL IMAGE PROCESSING</li>
+                            <li>RF CIRCUIT DESIGN</li>
+                            <li>AUGMENTED REALITY VS VIRTUAL REALITY</li>
+                        </ul>
+
+                        </div>
+                    </div>
+                    <div class="work">
+
+                        <div class="layer">
+
+                            <ul>
+                                <li>CYBER SECURITY</li>
+                                <li>VNC - VIRTUAL NETWORK COMPUTING</li>
+                                <li>NANO TECHNOLOGY</li>
+                                <li>ARTIFICIAL INTELLIGENCE IN MACHINES</li>
+                              <li>MOBILE COMPUTING AND ITS APPLICATIONS</li>
+                             
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+        
           <script>
               var tablinks = document.getElementsByClassName("tab-links");
               var tabcontents = document.getElementsByClassName("tab-contents");
@@ -135,5 +270,59 @@
               }
 
           </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+          var element = document.getElementById("home");
+          function scrollhome(){
+            element.scrollIntoView({behavior: "smooth"});
+          }
+        </script>
+        <script src="https://kit.fontawesome.com/9d72198e51.js" crossorigin="anonymous"></script>
+
+        
+        <footer class="footer">
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+              <div class="footercontainer">
+                  <div class="row">
+                      <div class="footer__col">
+                          <h4>Contact</h4>
+                              <ul>
+                                  <li><i class="fa-solid fa-phone"></i><a href="tel">+91 9095115614</a></li>
+                                  <li><i class="fa-solid fa-phone"></i><a href="tel">+91 8838699843</a></li>
+
+                              </ul>
+                          </div>
+                          <div class="footer__col">
+                              <h4>Schedule</h4>
+                              <ul>
+                                  <li><a href="#">Inauguration : 9:30am - 10:30am </a></li>
+                                  <li><a href="#">Tech Events & Workshop : 10:30am - 12:00pm  </a></li>
+                                  <li><a href="#">Non-Tech Events : 12:00pm - 1:30pm </a></li>
+                                  <li><a href="#">Lunch Break : 1:30pm - 2:30pm </a></li>
+                                  <li><a href="#">Fun Events : 2:30pm - 3:30pm </a></li>
+                              </ul>
+                          </div>
+                          <div class="footer__col">
+                              <h4>Register Fast</h4>
+                              <ul>
+                                  <li><a href="#"><i class="fa-duotone fa-calendar-days"></i> Save The Date - 4th April 2023, 9:30AM IST Onwards.</a></li>
+                                  <li><a href="#"><i class="fa-sharp fa-solid fa-location-pin"></i> Venue - Anna University Regional Campus Tirunelveli</a></li>
+                                  <li><a href="#"><i class="fa-thin fa-pot-food"></i> Food And Refreshment Will Be Provided For Registered Candidates</a></li>
+                              </ul>
+                          </div>
+                          <div class="footer__col">
+                              <h4>Follow Us</h4>
+                              <ul class="social-links">
+                                  <li><a href="https://instagram.com/electrospitzer?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a></li>
+                                  <li><a href="mailto:electrospitzer2023@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="footer__down">
+                      <span>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. 2023 © AURCT </span>
+                  </div>
+              </footer>
       </body>
   </html>
