@@ -61,6 +61,7 @@ nav {
   top: -800px;
   width: fit-content;
   height: 100%;
+  z-index: -1;
 }
 
 .logo {
